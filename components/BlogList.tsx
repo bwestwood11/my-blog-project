@@ -12,7 +12,7 @@ type Props = {
 function BlogList({ posts }: Props) {
   return (
     <div>
-      <hr className="border-[#F7AB0A] mb-10" />
+      <hr className="border-[#5651e5] mb-10" />
 
       <div className="grid grid-cols-1 md:grid-cols-2 px-10 gap-10 gap-y-16 pb-24">
         {posts.map((post) => (
@@ -38,7 +38,7 @@ function BlogList({ posts }: Props) {
                 </div>
                 <div className="flex flex-col md:flex-row gap-y-2 md:gap-x-2 items-center">
                   {post.categories?.map((category: { title: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | ReactFragment | ReactPortal | null | undefined; }) => (
-                    <div className="bg-[#F7AB0A] text-center text-black px-3 py-1 rounded-full text-sm font-semibold">
+                    <div className="bg-[#5651e5] text-center text-black px-3 py-1 rounded-full text-sm font-semibold">
                       <p>{category.title}</p>
                     </div>
                   ))}
