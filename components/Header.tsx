@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import HeadShot from "../public/Headshot.png"
 
 function Header() {
   return (
@@ -7,7 +8,7 @@ function Header() {
         <div className="flex items-center space-x-2">
             <Link href="/">
                 <Image
-                src='https://links.papareact.com/1m8'
+                src={HeadShot}
                 width={50}
                 className="rounded-full"
                 height={50}
@@ -19,7 +20,7 @@ function Header() {
         <div>
           <Link
           href="/"
-          className="px-5 py-3 text-sm md:text-base bg-gray-900 text-[#F7AB0A] flex items-center rounded-full text-center"
+          className="px-5 py-3 text-sm md:text-base bg-[#5651e5] text-white flex items-center rounded-full text-center hover:scale-105 ease-in-out duration-150"
           >
             Contact Me Today
           </Link>
