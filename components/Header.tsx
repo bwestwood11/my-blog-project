@@ -17,13 +17,16 @@ function Header() {
             </Link>
             <h1>Brett Westwood</h1>
         </div>
-        <div>
+        <div className="flex gap-2">
           <Link
           href="/"
           className="px-5 py-3 text-sm md:text-base bg-[#5651e5] text-white flex items-center rounded-full text-center hover:scale-105 ease-in-out duration-150"
           >
             Contact Me Today
           </Link>
+          <a className="px-5 py-3 text-sm md:text-base bg-[#5651e5] text-white flex items-center rounded-full text-center hover:scale-105 ease-in-out duration-150" href="https://www.brettwestwood.dev">
+              Back to my Portfolio
+          </a>
         </div>
     </header>
   )
